@@ -1,0 +1,79 @@
+.farmer-detail-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.farmer-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.farmer-header img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.farmer-info {
+  width: 100%;
+  max-width: 800px;
+}
+
+.farmer-info h2 {
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.farmer-info ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 20px;
+}
+
+.farmer-info li {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #f8f8f8;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.farmer-info li img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.farmer-info li h3 {
+  margin-top: 0;
+}
+
+.farmer-info li p {
+  margin-bottom: 0;
+}
+
+.farmer-info li button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.farmer-info li button:hover {
+  background-color: #3e8e41;
+}

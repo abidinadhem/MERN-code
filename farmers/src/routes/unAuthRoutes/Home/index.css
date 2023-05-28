@@ -1,0 +1,74 @@
+.farmers-section {
+  margin-top: 50px;
+}
+
+.farmers-section h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.farmers-section ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.farmers-section li {
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.farmers-section img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.farmers-section a {
+  text-decoration: none;
+  color: #333;
+}
+
+.products-section {
+  margin-top: 50px;
+}
+
+.products-section h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.products-section ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.products-section li {
+  margin-right: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.products-section img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
+
+.products-section .product-info {
+  margin-left: 20px;
+}
+
+.products-section .product-info h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.products-section .product-info p {
+  font-size: 18px;
+  margin: 0;
+}
+

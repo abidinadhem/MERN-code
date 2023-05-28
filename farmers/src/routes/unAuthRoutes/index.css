@@ -1,0 +1,9 @@
+.main {
+    width: 100%;
+}
+.d-flex {
+    display: flex;
+}
+.jc-sp {
+    justify-content: space-between;
+}
